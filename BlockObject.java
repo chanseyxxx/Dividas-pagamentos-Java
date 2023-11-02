@@ -1,3 +1,4 @@
+//oioi
 public class BlockObject {
     private Object content;
     private BlockObject prox;  
