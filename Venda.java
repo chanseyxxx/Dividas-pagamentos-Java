@@ -1,7 +1,8 @@
 public class Venda {
     private String data;
     private BlockObject listItem;
-        
+    private Pagamento pagamento;
+
     //Adicionar items a venda
     public void addItem(Item item) {
         BlockObject b =new BlockObject();
