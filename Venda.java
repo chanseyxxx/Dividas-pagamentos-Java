@@ -2,6 +2,7 @@ public class Venda {
     private String data;
     private BlockObject listItem;
     private Pagamento pagamento;
+    private Cliente cliente;
 
     //Adicionar items a venda
     public void addItem(Item item) {

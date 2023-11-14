@@ -1,6 +1,5 @@
 public class Cliente {
     private String nome; // nome do cliente
-    private Venda v; // venda associada ao cliente
     private Pagamento p;//pagamento feito pelo cliente
     
     public Cliente(String nome, Venda v) {
