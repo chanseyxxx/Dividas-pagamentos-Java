@@ -1,6 +1,5 @@
 public class Cliente {
     private String nome; // nome do cliente
-    private Pagamento p;//pagamento feito pelo cliente
     
     public Cliente(String nome, Venda v) {
         this.nome = nome;
