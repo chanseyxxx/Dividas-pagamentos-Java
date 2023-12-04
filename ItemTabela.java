@@ -1,5 +1,6 @@
 public class ItemTabela{
     TabelaPreco tabela;
-    double preçoUnitario;
+    Produto produto;
+    double precoUnitario;
     int quantidade;
 }
