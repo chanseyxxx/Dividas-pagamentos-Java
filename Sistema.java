@@ -1,6 +1,8 @@
-public class Sistema{
-    Cliente cliente;
-    ItemTabela tabela;
-    TabelaPreco tabelaPreco;
-    Produto produto;
+import java.util.List;
+
+public class Sistema {
+    List<Cliente> clientes;
+    List<ItemTabela> tabelas;
+    List<TabelaPreco> tabelasPreco;
+    List<Produto> produtos;
 }
