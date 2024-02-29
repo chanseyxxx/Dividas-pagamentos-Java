@@ -1,5 +1,7 @@
-//especificações do produto
 public class Produto {
-    private String tipo;//calça,blusa,camisa etc...
+    private String tipo;
 
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
 }

@@ -40,4 +40,40 @@ public class Venda {
     public String getData(){
         return this.data;
     }
-}
+
+   
+        public static void main(String[] args) {
+            // Criando alguns produtos para teste
+            Produto produto1 = new Produto();
+            produto1.setTipo("Calça");
+            
+            Produto produto2 = new Produto();
+            produto2.setTipo("Camisa");
+            
+            // Criando alguns itens
+            Item item1 = new Item();
+            item1.setProduto(produto1);
+            item1.setQuantidade(2);
+            item1.setValorUnitario(50.0f);
+            
+            Item item2 = new Item();
+            item2.setProduto(produto2);
+            item2.setQuantidade(1);
+            item2.setValorUnitario(30.0f);
+            
+            // Criando uma venda
+            Venda venda = new Venda();
+            venda.setData("2024-02-29");
+            venda.addItem(item1);
+            venda.addItem(item2);
+            
+            // Exibindo a data da venda e o valor total
+            System.out.println("Data da venda: " + venda.getData());
+            System.out.println("Valor total da venda: R$" + venda.valorTotal());
+        }
+    }
+    
+
+
+
+
