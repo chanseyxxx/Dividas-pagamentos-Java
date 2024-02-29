@@ -1,4 +1,5 @@
 public class Venda {
+    private int id;
     private String data;
     private BlockObject listItem;
     private Pagamento pagamento;
@@ -41,7 +42,14 @@ public class Venda {
         return this.data;
     }
 
-   
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
         public static void main(String[] args) {
             // Criando alguns produtos para teste
             Produto produto1 = new Produto();
